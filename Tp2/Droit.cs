@@ -8,8 +8,8 @@ namespace Tp2
 {
     class Droit
     {
-        Point p1;
-        Point p2;
+        Point p1; // debut
+        Point p2; // arrive
         public double vx { get; set; } 
         public double vy { get; set; }
         public double vz { get; set; }
@@ -54,7 +54,7 @@ namespace Tp2
         }
 
         /// <summary>
-        /// methode qui test si un point est appartenir a un droite ou non
+        /// methode qui fait un test si un point est appartenir a un droite ou non
         /// </summary>
         /// <param name="p">point qu'on va tester</param>
         /// <returns>return true si le point est appartenir, return false sinon</returns>
